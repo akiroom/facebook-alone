@@ -1,0 +1,13 @@
+{
+  "name": "FacebookAlone",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "facebook will be silent.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["jquery-1.11.3.min.js","script.js"],
+      "css": ["main.css"]
+    }
+  ]
+}
